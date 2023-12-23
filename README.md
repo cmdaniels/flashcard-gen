@@ -22,3 +22,23 @@ python3 gen.py [output_filepath]
 ```
 
 Please note that the script is currently set to run the main() function when executed. You may need to modify the script to suit your specific needs.
+
+## Example
+```
+$ python3 gen.py
+Target Language: Finnish
+Enter new word: pannukakku
+0: a thick (~ 1-2 cm, 1/2–3/4 in) pancake baked in oven, eaten as dessert and often served with whipped cream and/or jam
+1: (broadly) pancake
+2: (idiomatic) failure, fiasco
+Select definition: 2
+--------------------------------------------------
+Word: pannukakku
+Definition: (idiomatic) failure, fiasco
+Part of Speech: noun
+Etymology: pannu + kakku; calque of Swedish pannkaka (“pancake”) (both words of which, panna and kaka, are furthermore related to the Finnish counterparts). The figurative sense "failure, fiasco" (which is also found in Swedish) may refer to how a cake that fails to rise in the oven stays flat like a pancake.
+IPA: /ˈpɑnːuˌkɑkːu/, [ˈpɑ̝nːuˌkɑ̝kːu]
+Example: Koko projekti oli yksi suuri pannukakku.
+--------------------------------------------------
+Enter new word:
+```
